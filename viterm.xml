@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Private (VI, Terminal)</name>
+		<item>
+			<name>Command_L to Control_L (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.command_l_to_control_l_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::COMMAND_L,
+				KeyCode::CONTROL_L
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + Space to Command_L + Space (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_l_space_to_command_l_space_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::SPACE, ModifierFlag::CONTROL_L,
+				KeyCode::SPACE, ModifierFlag::COMMAND_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + Tab to Command_L + Tab (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_l_tab_to_command_l_tab_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::TAB, ModifierFlag::CONTROL_L,
+				KeyCode::TAB, ModifierFlag::COMMAND_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Command_R to Control_R (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.command_r_to_control_r_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::COMMAND_R,
+				KeyCode::CONTROL_R
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + Space to Command_R + Space (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_r_space_to_command_r_space_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::SPACE, ModifierFlag::CONTROL_R,
+				KeyCode::SPACE, ModifierFlag::COMMAND_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + Tab to Command_R + Tab (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_r_tab_to_command_r_tab_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::TAB, ModifierFlag::CONTROL_R,
+				KeyCode::TAB, ModifierFlag::COMMAND_R,
+			</autogen>
+		</item>
+	</item>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>ITERM2</appname>
+		<equal>com.googlecode.iterm2</equal>
+	</appdef>
+
+	<appdef>
+		<appname>VMWARE_FUSION</appname>
+		<equal>com.vmware.fusion</equal>
+	</appdef>
+
+	<appdef>
+		<appname>ALFRED2</appname>
+		<equal>com.runningwithcrayons.Alfred-2</equal>
+	</appdef>
+
+	<inputsourcedef>
+		<name>US</name>
+		<inputsourceid_equal>com.apple.keylayout.US</inputsourceid_equal>
+	</inputsourcedef>
+
+	<inputsourcedef>
+		<name>GOOGLE_IME_JAPANESE_BASE</name>
+		<inputsourceid_equal>com.google.inputmethod.Japanese.base</inputsourceid_equal>
+	</inputsourcedef>
+
+	<inputsourcedef>
+		<name>GOOGLE_IME_JAPANESE_ROMAN</name>
+		<inputsourceid_equal>com.google.inputmethod.Japanese.Roman</inputsourceid_equal>
+	</inputsourcedef>
+</root>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+	<include path="def.xml" />
+	<include path="viterm.xml" />
+	<include path="google-ime.xml" />
+	<include path="alfred.xml" />
+	<include path="option-r.xml" />
+</root>

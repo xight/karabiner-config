@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Private (Google IME)</name>
+		<item>
+			<name>Control_L + T to Command_L + T (only Google IME Japanese base / 半角英数に変換)</name>
+			<identifier>private.command_l_t_to_control_l_t_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<!-- Google Chrome の Command + Shift + T との衝突を回避 -->
+			<autogen>
+				__KeyToKey__
+				KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+				KeyCode::T, ModifierFlag::CONTROL_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + U to Command_L + U (only Google IME Japanese base / ひらがなに変換)</name>
+			<identifier>private.command_l_u_to_control_l_u_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::U, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+				KeyCode::U, ModifierFlag::CONTROL_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + I to Command_L + I (only Google IME Japanese base / 全角カタカナに変換)</name>
+			<identifier>private.command_l_i_to_control_l_i_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::I, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+				KeyCode::I, ModifierFlag::CONTROL_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + O to Command_L + O (only Google IME Japanese base / 半角に変換)</name>
+			<identifier>private.command_l_o_to_control_l_o_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::O, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+				KeyCode::O, ModifierFlag::CONTROL_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + P to Command_L + P (only Google IME Japanese base / 全角英数に変換) [Conflict occurred for Command + P (Print)]</name>
+			<identifier>private.command_l_p_to_control_l_p_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<!-- Command + P (Print) と重複するので削除 -->
+			<autogen>
+				__KeyToKey__
+				KeyCode::P, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+				KeyCode::P, ModifierFlag::CONTROL_L,
+			 </autogen>
+		</item>
+		<item>
+			<name>Control_R + T to Command_R + T (only Google IME Japanese base / 半角英数に変換)</name>
+			<identifier>private.command_r_t_to_control_r_t_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<!-- Google Chrome の Command + Shift + T との衝突を回避 -->
+			<autogen>
+				__KeyToKey__
+				KeyCode::T, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+				KeyCode::T, ModifierFlag::CONTROL_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + U to Command_R + U (only Google IME Japanese base / ひらがなに変換)</name>
+			<identifier>private.command_r_u_to_control_r_u_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::U, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+				KeyCode::U, ModifierFlag::CONTROL_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + I to Command_R + I (only Google IME Japanese base / 全角カタカナに変換)</name>
+			<identifier>private.command_r_i_to_control_r_i_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::I, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+				KeyCode::I, ModifierFlag::CONTROL_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + O to Command_R + O (only Google IME Japanese base / 半角に変換)</name>
+			<identifier>private.command_r_o_to_control_r_o_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::O, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+				KeyCode::O, ModifierFlag::CONTROL_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + P to Command_R + P (only Google IME Japanese base / 全角英数に変換) [Conflict occurred for Command + P (Print)]</name>
+			<identifier>private.command_r_p_to_control_r_p_only_googleime</identifier>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<!-- Command + P (Print) と重複するので削除 -->
+			<autogen>
+				__KeyToKey__
+				KeyCode::P, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+				KeyCode::P, ModifierFlag::CONTROL_R,
+			 </autogen>
+		</item>
+	</item>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Private: Use Option_R as KANA/EISUU (toggle)</name>
+		<item>
+			<name>Use Option_R as KANA (only Google IME Japanese.Roman)</name>
+			<inputsource_only>GOOGLE_IME_JAPANESE_ROMAN</inputsource_only>
+			<identifier>private.remap.jis_unify_kana_eisuu_to_optionR_kana_google_ime</identifier>
+			<autogen>
+				__KeyToKey__
+				KeyCode::OPTION_R,
+				KeyCode::JIS_KANA
+			</autogen>
+		</item>
+		<item>
+			<name>Use Option_R as KANA (only com.apple.keylayout.US)</name>
+			<inputsource_only>US</inputsource_only>
+			<identifier>private.remap.jis_unify_kana_eisuu_to_optionR_kana</identifier>
+			<autogen>
+				__KeyToKey__
+				KeyCode::OPTION_R,
+				KeyCode::JIS_KANA
+			</autogen>
+		</item>
+
+		<item>
+			<name>Use Option_R as EISUU (only Google IME Japanese.base)</name>
+			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
+			<identifier>private.remap.jis_unify_kana_eisuu_to_optionR_eisuu</identifier>
+			<autogen>
+				__KeyToKey__
+				KeyCode::OPTION_R,
+				KeyCode::JIS_EISUU
+			</autogen>
+		</item>
+	</item>
+</root>
