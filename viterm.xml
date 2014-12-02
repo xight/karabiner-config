@@ -35,7 +35,7 @@
 		<item>
 			<name>Command_R to Control_R (only VI, Terminal, VirtualMachine, RDC)</name>
 			<identifier>private.command_r_to_control_r_only_viterm</identifier>
-			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
 			<autogen>
 				__KeyToKey__
 				KeyCode::COMMAND_R,
@@ -53,9 +53,19 @@
 			</autogen>
 		</item>
 		<item>
+			<name>Control_R + Space to Option_L + ` (only VirtualBox)</name>
+			<identifier>private.control_r_space_to_option_l_backquote_only_viterm</identifier>
+			<only>VIRTUALBOX</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::SPACE, ModifierFlag::CONTROL_R,
+				KeyCode::BACKQUOTE, ModifierFlag::OPTION_L,
+			</autogen>
+		</item>
+		<item>
 			<name>Control_R + Tab to Command_R + Tab (only VI, Terminal, VirtualMachine, RDC)</name>
 			<identifier>private.control_r_tab_to_command_r_tab_only_viterm</identifier>
-			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
 			<autogen>
 				__KeyToKey__
 				KeyCode::TAB, ModifierFlag::CONTROL_R,
