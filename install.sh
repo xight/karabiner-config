@@ -19,7 +19,7 @@ DIR=$( cd "$( dirname "$0" )" && pwd )
 
 IFS=\
 
-KEYREMAP4MACBOOK_ROOT="$HOME/Library/Application Support/KeyRemap4MacBook"
+KEYREMAP4MACBOOK_ROOT="$HOME/Library/Application Support/Karabiner"
 mv $KEYREMAP4MACBOOK_ROOT/private.xml $KEYREMAP4MACBOOK_ROOT/private.xml.bak
 
 echo 'install start'
