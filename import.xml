@@ -2,6 +2,7 @@
 <root>
 	<include path="def.xml" />
 	<include path="viterm.xml" />
+	<include path="atom.xml" />
 	<include path="google-ime.xml" />
 	<include path="alfred.xml" />
 	<include path="option-r.xml" />
