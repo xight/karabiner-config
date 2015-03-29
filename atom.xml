@@ -23,6 +23,16 @@
 			</autogen>
 		</item>
 		<item>
+			<name>Control_L + S to Command_L + S (only Atom)</name>
+			<identifier>private.control_l_s_to_command_l_s_only_atom</identifier>
+			<only>Atom</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::S, ModifierFlag::CONTROL_L,
+				KeyCode::S, ModifierFlag::COMMAND_L,
+			</autogen>
+		</item>
+		<item>
 			<name>Command_R to Control_R (only Atom)</name>
 			<identifier>private.command_r_to_control_r_only_atom</identifier>
 			<only>Atom</only>
@@ -40,6 +50,16 @@
 				__KeyToKey__
 				KeyCode::SPACE, ModifierFlag::CONTROL_R,
 				KeyCode::SPACE, ModifierFlag::COMMAND_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + S to Command_R + S (only Atom)</name>
+			<identifier>private.control_r_s_to_command_r_s_only_atom</identifier>
+			<only>Atom</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::S, ModifierFlag::CONTROL_R,
+				KeyCode::S, ModifierFlag::COMMAND_R,
 			</autogen>
 		</item>
 	</item>
