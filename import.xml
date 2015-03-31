@@ -8,4 +8,5 @@
 	<include path="google-ime.xml" />
 	<include path="alfred.xml" />
 	<include path="option-r.xml" />
+	<include path="universal-mobile-keyboard.xml" />
 </root>
