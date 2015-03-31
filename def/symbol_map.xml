@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <root>
 	<symbol_map type="DeviceVendor" name="MICROSOFT" value="0x045e" />
-	<symbol_map type="DeviceProduct" name="MICROSOFT_UNIVERSAL_MOBILE_KEYBORAD_US" value="0x0802" />
+	<symbol_map type="DeviceProduct" name="MICROSOFT_UNIVERSAL_MOBILE_KEYBOARD_US" value="0x0802" />
 </root>
