@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>ITERM2</appname>
+		<equal>com.googlecode.iterm2</equal>
+	</appdef>
+
+	<appdef>
+		<appname>VMWARE_FUSION</appname>
+		<equal>com.vmware.fusion</equal>
+	</appdef>
+
+	<appdef>
+		<appname>VIRTUALBOX</appname>
+		<equal>org.virtualbox.app.VirtualBoxVM</equal>
+	</appdef>
+
+	<appdef>
+		<appname>ALFRED2</appname>
+		<equal>com.runningwithcrayons.Alfred-2</equal>
+	</appdef>
+</root>
