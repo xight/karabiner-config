@@ -23,6 +23,16 @@
 			</autogen>
 		</item>
 		<item>
+			<name>Control_L + Space to Option_L + ` (only VirtualBox)</name>
+			<identifier>private.control_l_space_to_option_l_backquote_only_viterm</identifier>
+			<only>VIRTUALBOX</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::SPACE, ModifierFlag::CONTROL_L,
+				KeyCode::BACKQUOTE, ModifierFlag::OPTION_L,
+			</autogen>
+		</item>
+		<item>
 			<name>Control_L + Tab to Command_L + Tab (only VI, Terminal, VirtualMachine, RDC)</name>
 			<identifier>private.control_l_tab_to_command_l_tab_only_viterm</identifier>
 			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
