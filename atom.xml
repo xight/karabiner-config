@@ -3,6 +3,9 @@
 	<item>
 		<name>Private (Atom)</name>
 		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_L(55))</appendix>
+		</item>
+		<item>
 			<name>Command_L to Control_L (only Atom)</name>
 			<identifier>private.command_l_to_control_l_only_atom</identifier>
 			<only>Atom</only>
@@ -31,6 +34,9 @@
 				KeyCode::S, ModifierFlag::CONTROL_L,
 				KeyCode::S, ModifierFlag::COMMAND_L,
 			</autogen>
+		</item>
+		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_R(54))</appendix>
 		</item>
 		<item>
 			<name>Command_R to Control_R (only Atom)</name>

@@ -3,6 +3,9 @@
 	<item>
 		<name>Private (VI, Terminal)</name>
 		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_L(55))</appendix>
+		</item>
+		<item>
 			<name>Command_L to Control_L (only VI, Terminal, VirtualMachine, RDC)</name>
 			<identifier>private.command_l_to_control_l_only_viterm</identifier>
 			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, REMOTEDESKTOPCONNECTION</only>
@@ -41,6 +44,9 @@
 				KeyCode::TAB, ModifierFlag::CONTROL_L,
 				KeyCode::TAB, ModifierFlag::COMMAND_L,
 			</autogen>
+		</item>
+		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_R(54))</appendix>
 		</item>
 		<item>
 			<name>Command_R to Control_R (only VI, Terminal, VirtualMachine, RDC)</name>
