@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <root>
-	<include path="{{ ENV_HOME }}/repos/karabiner-config/import.xml" />
+	<include path="{{ ENV_HOME }}/.ghq/github.com/xight/karabiner-config/import.xml" />
 </root>
