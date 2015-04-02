@@ -5,12 +5,10 @@
 		<item>
 			<name>Windows switch to Apple keyboard</name>
 			<identifier>private.microsoft_universal_mobile_keyboard_us_to_apple_keyboard</identifier>
-			<!--
 			<device_only>
 				DeviceVendor::MICROSOFT,
-				DeviceProduct::MICROSOFT_UNIVERSAL_MOBILE_KEYBOARD_US
+				DeviceProduct::MICROSOFT_UNIVERSAL_MOBILE_KEYBOARD_US,
 			</device_only>
-			-->
 			<autogen>
 				__KeyToKey__
 				KeyCode::CONTROL_L,
