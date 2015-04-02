@@ -3,6 +3,9 @@
 	<item>
 		<name>Private (Alfred2)</name>
 		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_L(55))</appendix>
+		</item>
+		<item>
 			<name>Command_L + Enter to Enter (only Alfred2)</name>
 			<identifier>private.command_l_and_enter_to_enter_only_alfred2</identifier>
 			<only>ALFRED2</only>
@@ -11,6 +14,9 @@
 				KeyCode::RETURN, ModifierFlag::COMMAND_L,
 				KeyCode::RETURN
 			</autogen>
+		</item>
+		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_R(54))</appendix>
 		</item>
 		<item>
 			<name>Command_R + Enter to Enter (only Alfred2)</name>

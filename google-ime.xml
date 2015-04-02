@@ -3,6 +3,9 @@
 	<item>
 		<name>Private (Google IME)</name>
 		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_L(55))</appendix>
+		</item>
+		<item>
 			<name>Control_L + T to Command_L + T (only Google IME Japanese base / 半角英数に変換)</name>
 			<identifier>private.command_l_t_to_control_l_t_only_googleime</identifier>
 			<inputsource_only>GOOGLE_IME_JAPANESE_BASE</inputsource_only>
@@ -53,6 +56,9 @@
 				KeyCode::P, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
 				KeyCode::P, ModifierFlag::CONTROL_L,
 			 </autogen>
+		</item>
+		<item>
+			<appendix>For Seil User (CAPSLOCK(57) to Command_R(54))</appendix>
 		</item>
 		<item>
 			<name>Control_R + T to Command_R + T (only Google IME Japanese base / 半角英数に変換)</name>
