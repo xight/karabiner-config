@@ -46,6 +46,26 @@
 			</autogen>
 		</item>
 		<item>
+			<name>Control_L + Shift_L + 3 to Command_L + Shift_L + 3 (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_l_shift_l_3_to_command_l_shift_l_3_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::KEY_3, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L,
+				KeyCode::KEY_3, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_L + Shift_L + 4 to Command_L + Shift_L + 4 (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_l_shift_l_4_to_command_l_shift_l_4_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::KEY_4, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L,
+				KeyCode::KEY_4, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+			</autogen>
+		</item>
+		<item>
 			<appendix>For Seil User (CAPSLOCK(57) to Command_R(54))</appendix>
 		</item>
 		<item>
@@ -86,6 +106,26 @@
 				__KeyToKey__
 				KeyCode::TAB, ModifierFlag::CONTROL_R,
 				KeyCode::TAB, ModifierFlag::COMMAND_R,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + Shift_L + 3 to Command_R + Shift_L + 3 (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_r_shift_l_3_to_command_r_shift_l_3_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::KEY_3, ModifierFlag::CONTROL_R, ModifierFlag::SHIFT_L,
+				KeyCode::KEY_3, ModifierFlag::COMMAND_R, ModifierFlag::SHIFT_L,
+			</autogen>
+		</item>
+		<item>
+			<name>Control_R + Shift_L + 4 to Command_R + Shift_L + 4 (only VI, Terminal, VirtualMachine, RDC)</name>
+			<identifier>private.control_r_shift_l_4_to_command_r_shift_l_4_only_viterm</identifier>
+			<only>VI, TERMINAL, ITERM2, VIRTUALMACHINE, VMWARE_FUSION, VIRTUALBOX, REMOTEDESKTOPCONNECTION</only>
+			<autogen>
+				__KeyToKey__
+				KeyCode::KEY_4, ModifierFlag::CONTROL_R, ModifierFlag::SHIFT_L,
+				KeyCode::KEY_4, ModifierFlag::COMMAND_R, ModifierFlag::SHIFT_L,
 			</autogen>
 		</item>
 	</item>
